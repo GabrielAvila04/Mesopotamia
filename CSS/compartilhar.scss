@@ -1,0 +1,41 @@
+$corPrimaria: #ffcdab;
+$corSecundaria: #5d5d5a; 
+$tamanho:50px;
+%flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#compartilhar{
+    @extend %flex;
+    position: fixed;
+    transition: 1s;
+    z-index: 9998;
+    top:50%;
+    background-color: $corPrimaria;
+    width:$tamanho;
+    height:$tamanho;
+    cursor: pointer;
+    box-shadow: -2px 1px 20px -5px rgba(0,0,0,1);   
+    div
+    {
+      width:50%;
+      height: 50%;
+    
+      svg{
+        @extend %flex;
+        width: 100%;
+        height: 100%;
+        #path{
+
+          fill:$corSecundaria !important 
+        }
+      }
+    }
+} 
+
+#compartilhar:hover{
+  transform: scale(.97);
+  transition: 1s;
+}
+@import 'media';

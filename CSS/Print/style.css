@@ -1,0 +1,18 @@
+@media print{
+  .title-grey-normal, #ferramentas, #navbar, .Dark, .desaparece, .breadCrumbs, button{
+    display: none !important;
+  }
+  #mae{
+    background: #fff !important;
+  }
+
+  #img{
+    overflow: visible;
+  }
+
+  svg
+  {
+    width: 993px !important; height: 583px !important
+  }
+
+}
