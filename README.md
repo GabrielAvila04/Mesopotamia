@@ -1,4 +1,4 @@
-# Mesopotanian website build with PHP, CSS, JavaScript & HTML5
+# An Mesopotanian website build with PHP, CSS, JavaScript & HTML5
 
 ![Preview-Screens](https://github.com/GabrielAvila04/Mesopotamia/blob/main/Screenshots/default.png)
 
